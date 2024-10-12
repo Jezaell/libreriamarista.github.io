@@ -1,0 +1,90 @@
+body{
+    width: 100vw;
+    margin: 0px;
+}
+
+.cabeza{
+    background-color: rgb(73, 125, 238);
+    color: rgb(12, 30, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    filter: opacity(30%);
+    width: 400px;
+}
+
+.imaa{
+    width: 100vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    left: 0;
+    position: absolute;
+}
+
+.cuenta{
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  font-family: 'Courier New', sans-serif;
+  font-size: 16px;
+  transform: translateX(65px);
+}
+
+.mensaje{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.msj{
+  width:210px;
+  font-family: 'Courier New', sans-serif;
+  font-size: 16px;
+  transform: translateX(55px);
+  border-bottom: 1px solid black;
+  margin:10px;
+}
+.entrar{
+  width:100px;
+  height:30px;
+  border-radius:10%;
+  position: fixed;
+  bottom: 280px;
+  left: 65px;
+}
+.histo{
+  width:100px;
+  height:30px;
+  border-radius:10%;
+  position: fixed;
+  bottom: 280px;
+  right: 65px;
+}
+.nombrea{
+    display: flex;
+    width: 400px;
+    height: 20px;
+    border: 1px solid black;
+    transform: translate(65px,60px);
+}
+.cuentaa{
+    display: flex;
+    width: 400px;
+    height: 20px;
+    border: 1px solid black;
+    transform: translate(65px,80px);
+}
+.cursoa{
+    display: flex;
+    width: 400px;
+    height: 20px;
+    border: 1px solid black;
+    transform: translate(65px,100px);
+}
